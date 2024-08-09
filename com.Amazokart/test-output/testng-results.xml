@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[server_Connection done]]>
+    </line>
+    <line>
+      <![CDATA[db connection done]]>
+    </line>
+    <line>
+      <![CDATA[broswerSetup sucessful]]>
+    </line>
+    <line>
+      <![CDATA[login sucessful]]>
+    </line>
+    <line>
+      <![CDATA[createUser_invalid for registerTest]]>
+    </line>
+    <line>
+      <![CDATA[login sucessful]]>
+    </line>
+    <line>
+      <![CDATA[createUser_invalid for registerTest]]>
+    </line>
+    <line>
+      <![CDATA[login sucessful]]>
+    </line>
+    <line>
+      <![CDATA[createUser_invalid for registerTest]]>
+    </line>
+    <line>
+      <![CDATA[close browser sucessful]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-09T11:17:28 IST" name="Suite" finished-at="2024-08-09T11:17:54 IST" duration-ms="26347">
+    <groups>
+    </groups>
+    <test started-at="2024-08-09T11:17:28 IST" name="Test" finished-at="2024-08-09T11:17:54 IST" duration-ms="26347">
+      <class name="com.Amazokart.regester.test.RegisterTest">
+        <test-method is-config="true" signature="serverconnection()[pri:0, instance:com.Amazokart.regester.test.RegisterTest@37afeb11]" started-at="2024-08-09T11:17:28 IST" name="serverconnection" finished-at="2024-08-09T11:17:28 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[server_Connection done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- serverconnection -->
+        <test-method is-config="true" signature="dbconnection()[pri:0, instance:com.Amazokart.regester.test.RegisterTest@37afeb11]" started-at="2024-08-09T11:17:28 IST" name="dbconnection" finished-at="2024-08-09T11:17:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[db connection done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dbconnection -->
+        <test-method is-config="true" signature="browsersetup(java.lang.String)[pri:0, instance:com.Amazokart.regester.test.RegisterTest@37afeb11]" started-at="2024-08-09T11:17:28 IST" name="browsersetup" finished-at="2024-08-09T11:17:29 IST" duration-ms="1768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[broswerSetup sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Amazokart.regester.test.RegisterTest@37afeb11]" started-at="2024-08-09T11:17:29 IST" name="login" finished-at="2024-08-09T11:17:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createUser_invalidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amazokart.regester.test.RegisterTest@37afeb11]" started-at="2024-08-09T11:17:29 IST" name="createUser_invalidData" data-provider="register" finished-at="2024-08-09T11:17:37 IST" duration-ms="7798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Durga]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[durga123@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testing@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[createUser_invalid for registerTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser_invalidData -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Amazokart.regester.test.RegisterTest@37afeb11]" started-at="2024-08-09T11:17:37 IST" name="login" finished-at="2024-08-09T11:17:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createUser_invalidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amazokart.regester.test.RegisterTest@37afeb11]" started-at="2024-08-09T11:17:37 IST" name="createUser_invalidData" data-provider="register" finished-at="2024-08-09T11:17:45 IST" duration-ms="7733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reshma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Reshma123@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Developer@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[createUser_invalid for registerTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser_invalidData -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Amazokart.regester.test.RegisterTest@37afeb11]" started-at="2024-08-09T11:17:45 IST" name="login" finished-at="2024-08-09T11:17:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createUser_invalidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amazokart.regester.test.RegisterTest@37afeb11]" started-at="2024-08-09T11:17:45 IST" name="createUser_invalidData" data-provider="register" finished-at="2024-08-09T11:17:52 IST" duration-ms="7621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Satheesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[satheesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Devops@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[createUser_invalid for registerTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser_invalidData -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Amazokart.regester.test.RegisterTest@37afeb11]" started-at="2024-08-09T11:17:52 IST" name="closeBrowser" finished-at="2024-08-09T11:17:54 IST" duration-ms="1369" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close browser sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Amazokart.regester.test.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
